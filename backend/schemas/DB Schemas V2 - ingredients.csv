@@ -1,0 +1,4 @@
+column,type,notes
+ingredient_id (PK),int,unique id
+name,text,"e.g. ""Tomato"""
+category_id (FK),int,links to category

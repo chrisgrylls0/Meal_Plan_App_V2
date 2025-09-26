@@ -1,0 +1,5 @@
+column,type,notes
+recipe_id (FK),int,which recipe
+ingredient_id (FK),int,which ingredient
+quantity,float,e.g. 200
+unit,text,"e.g. ""grams"", ""ml"", ""tbsp"""

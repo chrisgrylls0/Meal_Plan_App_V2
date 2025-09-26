@@ -1,0 +1,9 @@
+column,type,notes
+plan_entry_id (PK),int,unique id
+timestamp,text,"ISO8601 string date and time ""YYYY-MM-DD HH:MM:SS"""
+datestamp,text,"ISO8601 string date ""YYYY-MM-DD"""
+weeknum_created,text,"ISO8601 week number ""2025-W39"" "
+day,int,"when the meal is scheduled (Monday = 1, Sunday = 7)"
+meal_time,text,"e.g. ""Breakfast"", ""Lunch"", ""Dinner"""
+leftovers_bool,int,"True = 1, False = 0"
+recipe_id (FK),int,which recipe

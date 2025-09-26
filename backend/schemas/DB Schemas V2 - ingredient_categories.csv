@@ -1,0 +1,3 @@
+column,type,notes
+category_id (PK),int,unique id
+name,text,"e.g. ""Vegetable"", ""Protein"""
