@@ -1,0 +1,44 @@
+# Python generic ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+# *.log
+
+# Virtual environment folders
+.env/
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore Dockerfiles
+# Dockerfile
+docker-compose.yml
+docker-compose.yaml
+
+# Ignore tar files
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+.cache/
